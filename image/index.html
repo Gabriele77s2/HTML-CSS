@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<html manifest="index.appcache">    <!-- if user want to read a page offline -->
+   <head>
+      <meta charset="UTF-8">
+      <meta charset="ISO-8859-1">
+      <meta http-equiv="refresh" content="120">
+      <meta name="application-name" content="OpenStreetMap">
+      <meta name="author" content="Your Name">
+      <meta name="description" content="Page Description">
+      <meta name="generator" content="HTML Generator 1.42">
+      <meta name="keywords" content="Keyword1, Keyword2">
+      <meta name="robots" content="noindex">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="format-detection" content="telephone=no">
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="theme-color" content="black">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+      <!-- External CSS Stylesheet -->
+      <link rel="stylesheet" href="path/to.css">
+      <!-- Internal CSS Stylesheet -->
+      <style>
+         body {
+            background-color: lightgray;
+         }
+      </style>
+
+      <title>Hello!</title>
+   </head>
+   <body>
+     <h1>Heading 1</h1>
+     <h2>Heading 2</h2>
+     <h3>Heading 3</h3>
+     <h4>Heading 4</h4>
+     <h5>Heading 5</h5>
+     <h6>Heading 6</h6>
+
+     <p><strong>Here</strong> is <b>some</b> <em>content</em> from an <i>article</i> that contains the <mark>searched query</mark>
+        that we are looking for.<u>Highlighting</u> the text will make it easier for the user to find what they are looking for.</p>
+
+     <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+     <p>I like to write <abbr title="Hypertext Markup Language">HTML</abbr>!</p>
+
+     <ins>New Text</ins>
+     <del>Deleted Text</del>
+     <s>Struck-through text here</s>
+     <sup>superscript here</sup>
+     <sub>subscript here</sub>
+
+     <!-- href = specifies the destination address;
+          rel = specifies the realtionship between the current documente and the linked document;
+          target = specifies where to open the link in new tab or window (_blank, _self, _parent, _top);
+          title = specifies extra information about a link when the cursor moves over the link;
+          download = specifies that the target will be downloaded when a user clicks on the hyperlink -->
+
+     <a href="http://example.com/">Link to example.com</a>
+     <a href="http://example.com/" rel="external">example site</a>
+
+     <h2 id="Topic1">First topic</h2>
+         <p>Content about the first topic</p>
+     <h2 id="Topic2">Second topic</h2>
+         <p>Content about the second topic</p>
+
+     <h1>Table of Contents</h1>
+         <a href='#Topic1'>Click to jump to the First Topic</a>
+         <a href='#Topic2'>Click to jump to the Second Topic</a>
+
+         <a href="/page">Text Here</a>
+         <a href="http://example.com/page">Text Here</a>
+         <a href="tel:11234567890">Call us</a>
+         <a href="example.com" target="_blank">Text Here</a>
+
+         <a href="javascript:myFunction();">Run Code</a>
+         <a href="#" onclick="myFunction(); return false;">Run Code</a>
+         <a href="#!" onclick="myFunction();">Run Code</a>
+         <a href="mailto:example@example.com">Send email</a>
+
+     <p>The dl element indicates a description list:</p>
+        <dl>
+           <dt>Coffee</dt>
+           <dd>- black hot drink</dd>
+           <dt>Milk</dt>
+           <dd>- white cold drink</dd>
+        </dl>
+
+     <ol>
+        <li>Item</li>
+        <li>Another Item</li>
+        <li>Yet Another Item</li>
+     </ol>
+
+     <ol start="3">
+        <li>Item</li>
+        <li>Some Other Item</li>
+        <li>Yet Another Item</li>
+     </ol>
+
+     <li value="7"></li>
+
+     <ol start="5">
+        <li>Item</li>
+        <li>Some Other Item</li>
+        <li value="4">A Reset Item</li>
+        <li>Another Item</li>
+        <li>Yet Another Item</li>
+     </ol>
+
+     <ol reversed>
+        <li>Item</li>
+        <li>Some Other Item</li>
+        <li value="4">A Reset Item</li>
+        <li>Another Item</li>
+        <li>Yet Another Item</li>
+     </ol>
+
+     <!-- <ol type="1|a|A|i|I"> -->
+
+     <ul>
+        <li>Item</li>
+        <li>Another Item</li>
+        <li>Yet Another Item</li>
+     </ul>
+
+     <ul>
+        <li>item 1</li>
+        <li>item 2
+           <ul>
+             <li>sub-item 2.1</li>
+             <li>sub-item 2.2</li>
+           </ul>
+        </li>
+        <li>item 3</li>
+    </ul>
+
+    <ol>
+      <li>Hello, list!</li>
+      <li>
+        <ul>
+          <li>Hello, nested list!</li>
+        </ul>
+      </li>
+    </ol>
+
+    <dl>
+      <dt>name 1</dt>
+      <dd>value for 1</dd>
+      <dt>name 2</dt>
+      <dd>value for 2</dd>
+    </dl>
+
+    <dl>
+      <dt>name 1</dt>
+      <dt>name 2</dt>
+      <dd>value for 1 and 2</dd>
+      <dt>name 3</dt>
+      <dd>value for 3</dd>
+      <dd>value for 3</dd>
+    </dl>
+
+    <table>
+      <tr>
+        <th>Heading 1/Column 1</th>
+        <th>Heading 2/Column 2</th>
+      </tr>
+
+      <tr>
+        <td>Row 1 Data Column 1</td>
+        <td>Row 1 Data Column 2</td>
+      </tr>
+
+      <tr>
+        <td>Row 2 Data Column 1</td>
+        <td>Row 2 Data Column 2</td>
+      </tr>
+    </table>
+
+    <br>
+
+    <table>
+      <tr>
+        <td>row 1 col 1</td>
+        <td>row 1 col 2</td>
+        <td>row 1 col 3</td>
+      </tr>
+
+      <tr>
+        <td colspan="3">This second row spans all three columns</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2">This cell spans two rows</td>
+        <td>row 3 col 2</td>
+        <td>row 3 col 3</td>
+      </tr>
+
+      <tr>
+        <td>row 4 col 2</td>
+        <td>row 4 col 3</td>
+      </tr>
+    </table>
+
+    <table>
+      <colgroup span="2"></colgroup>
+      <colgroup span="2"></colgroup>
+    </table>
+
+    <table>
+      <colgroup>
+        <col id="MySpecialColumn" />
+        <col />
+      </colgroup>
+
+      <colgroup>
+        <col class="CoolColumn" />
+        <col class="NeatColumn" span="2" />
+      </colgroup>
+    </table>
+
+    <br>
+
+    <table>
+      <caption>Table Title</caption>
+      <thead>
+         <tr>
+           <th>Header content 1</th> <!-- th = bold -->
+           <th>Header content 2</th>
+         </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+           <td>Body content 1</td>
+           <td>Body content 2</td>
+         </tr>
+      </tbody>
+
+      <tfoot>
+         <tr>
+            <td>Footer content 1</td>
+            <td>Footer content 2</td>
+         </tr>
+      </tfoot>
+    </table>
+
+    <br>
+
+    <table>
+      <thead>
+        <tr>
+          <td></td>
+          <th scope="col">Column Heading 1</th>
+          <th scope="col">Column Heading 2</th>
+        </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+           <th scope="row">Row Heading 1</th>
+           <td></td>
+           <td></td>
+         </tr>
+         <tr>
+           <th scope="row">Row Heading 1</th>
+           <td></td>
+           <td></td>
+         </tr>
+      </tbody>
+    </table>
+
+    <a href="#">I hope there will be no extra whitespace after this!</a><button>Foo</button>
+
+    <hr> <!-- horizontal line -->
+
+    <!-- Class = element non-unique in the same document -->
+    <!-- Valid Class -->
+    <div class="highlight">Lorem ipsum</div>    <!-- CSS = div.highlight { color: green; } -->
+    <span class="highlight">Lorem ipsum</span>  <!-- CSS = span.highlight { color: red; } -->
+    <div class="sameclass"> ... </div>
+    <div class="sameclass"> ... </div>
+
+    <!-- ID = element unique in the same document, not contain any space characters -->
+    <!-- Valid ID -->
+    <div id="sampletext"> ... </div>   <!-- CSS = #sampletext { color: green; } -->
+    <div id="sample-text"> ... </div>
+    <div id="sample_text"> ... </div>
+    <div id="sample:text"> ... </div>
+    <div id="sample.text"> ... </div>
+    <div id="999"> ... </div>
+    <!-- Invalid ID -->
+    <div id="example-id"></div>
+    <span id="example-id"></span>
+
+    <br>
+
+    <!-- charset = Specifies the character encoding of the linked document;
+         crossorigin = Specifies how the element handles cross origin requests;
+         href = Specifies the location of the linked document;
+         hreflang = Specifies the language of the text in the linked document;
+         media = Specifies on what device the linked document will be displayed;
+         rel = Specifies the relationship between the current document and the linked document;
+         rev = Specifies the relationship between the linked document and the current document;
+         sizes = Specifies the size of the linked resource, only when rel="icon";
+         target = Specifies where the linked document is to be loaded;
+         type = Specifies the media type of the linked document;
+         src = Specifies the path to a JavaScript file. Either a relative or absolute URL;
+         async = Specifies that the script shall be executed asynchronously (only for external scripts);
+         defer = Specifies that the script shall be executed when the page has finished parsing (only for external scripts) -->
+
+    <!-- Javascript
+            Synchronous = <script src="path/to.js"></script>
+                        = Standard practice is to place JavaScript <script> tags just before the closing </body> tag.
+                          Loading your scripts last allows your site's visuals to show up more quickly and discourages
+                           your JavaScript from trying to interact with elements that haven't loaded yet.
+
+            Asynchronous = <script src="path/to.js" async></script> =
+                         = Another alternative, when the Javascript code being loaded is not necessary for page initialization,
+                            it can be loaded asynchronously, speeding up the page load.
+                           Using async the browser will load the contents of the script in parallel and, once it is fully downloaded,
+                            will interrupt the HTML parsing in order to parse the Javascript file.
+
+            Deferred = <script src="path/to.js" defer></script>
+                     = Deferred scripts are like async scripts, with the exception that the parsing will only be performed once the HTML is fully parsed.
+                       Deferred scripts are guaranteed to be loaded in the order of declaration, same way as synchronous scripts.
+
+            Noscript = <noscript>JavaScript disabled</noscript>
+                     = Defines content to be displayed if the user has scripts disabled or if the browser does not support using scripts.
+                       The <noscript> tag can be placed in either the <head> or the <body> -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!-- DNS-Prefetch =  resolve the DNS for a URL ( URL load faster) -->
+    <link rel="dns-prefetch" href="URL">
+
+    <!-- Prefetch = a given resource should be prefetched so it can be loaded more quickly -->
+    <link rel="prefetch" href="URL">
+
+    <!-- Prev and Next = When a page is part of a series of articles,
+                          you can use prev and next to point to pages that are coming before and after -->
+    <link rel="prev" href="http://stackoverflow.com/documentation/java/topics">
+    <link rel="next" href="http://stackoverflow.com/documentation/css/topics">
+
+    <!-- Web Feed = rel="alternate" allows discoverability of your Atom/RSS feeds -->
+    <link rel="alternate" type="application/atom+xml" href="http://example.com/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" href="http://example.com/feed.xml" />
+
+    <!-- Inline CSS Stylesheet -->
+    <span style="color: red">This text will appear in red.</span>
+
+    <!-- Images
+            src = Specifies the URL of the image;
+            srcset = Images to use in different situations (high-resolution displays, small monitors);
+            sizes = Image sizes between breakpoints;
+            crossorigin = How the element handles crossorigin requests;
+            usemap = Name of image map to use;
+            ismap = Whether the image is a server-side image map;
+            alt = Alternative text that should be displayed if for some reason the image could not be displayed;
+            width = Specifies the width of the image (optional);
+            height = Specifies the height of the image (optional) -->
+
+    <!-- Creating an image -->
+    <img src="images/hello.png" alt="Hello World">
+    <!-- Images are not technically inserted into an HTML page, images are linked to HTML pages -->
+    <img src="https://i.stack.imgur.com/ALgZi.jpg?s=48&g=1" alt="StackOverflow user Caleb Kleveter">
+
+    <!-- Choosing alt text -->
+    <!-- Alt-text is used for visually impaired users -->
+    <!-- If I write: alt="Anonymous user avatar", then without images it would look like: Anonymous user avatar An anonymous user wrote: -->
+    <img src="anonymous.png" alt=""/> An anonymous user wrote: <!-- Instead, it would look like: An anonymous user wrote: -->
+
+    <blockquote>Lorem ipsum dolor sed.</blockquote>
+
+    <a href="https://google.com/"><img src="edit.png" alt="Edit"/></a> /
+    <a href="https://google.com/"><img src="delete.png" alt="Delete"/></a>
+
+    <!-- Responsive image with the srcset attribute -->
+    <img sizes="(min-width: 1200px) 580px,
+                (min-width: 640px) 48vw, 98vw"
+         srcset="img/hello-300.jpg 300w,
+                 img/hello-600.jpg 600w,
+                 img/hello-900.jpg 900w,
+                 img/hello-1200.jpg 1200w"
+         src="img/hello-900.jpg" alt="hello">
+
+    <!-- Responsive image without the srcset attribute -->
+    <img src="img/hello-300.jpg" alt="hello"
+         srcset="img/hello-300.jpg 1x,
+                 img/hello-600.jpg 2x,
+                 img/hello-1200.jpg 3x">
+
+    <!-- Responsive image using picture element -->
+    <picture>
+       <source media="(min-width: 600px)" srcset="large_image.jpg">
+       <source media="(min-width: 450px)" srcset="small_image.jpg">
+       <img src="default_image.jpg" style="width:auto;">
+    </picture>
+
+    <!-- Image Maps clickable -->
+    <img src="http://jaced.com/blogpix/2007/trisquarecircle/002.gif" usemap="#shapes">
+    <map name="shapes">
+       <area shape="polygon" coords="79,6,5,134,153,134">
+       <area shape="rectangle" coords="177,6,306,134">
+       <area shape="circle" coords="397,71,65">
+    </map>
+
+    <!-- Input Control Elements -->
+    <input type="text" size="50">
+    <input type="radio" name="color" id="red" value="#F00">Red
+    <input type="radio" name="color" id="green" value="#0F0">Green
+    <input type="checkbox" name="color" id="blue" value="#00F">Blue
+    <input type="checkbox" name="color" id="yellow" value="#F00">Yellow
+
+    <br>
+
+    <input checked>
+    <input checked="">
+    <input checked="checked">
+
+    <fieldset>
+      <legend>Theme color:</legend>
+      <p>
+         <input type="radio" name="color" id="red" value="#F00">
+         <label for="red">Red</label>
+      </p>
+
+      <p>
+         <input type="radio" name="color" id="green" value="#0F0">
+         <label for="green">Green</label>
+      </p>
+
+      <p>
+         <input type="radio" name="color" id="blue" value="#00F">
+         <label for="blue">Blue</label>
+      </p>
+    </fieldset>
+
+    <input minlength="3">
+    <input maxlength="15">
+    <input minlength="3" maxlength="15">
+
+    Marks: <input type="number" size="6" name="marks" min="0" max="100"/>
+    Subject Feedback: <input type="range" size="2" name="feedback" min="1" max="5"/>
+
+    <input pattern="\d*" title="Numbers only, please.">
+
+    <input type="file" accept="image/*" title="Only images are allowed">
+    <input type="file" accept="image/*,.rar,application/zip">
+
+    <form>
+       <input type="text" name="name" required>
+       <input type="email" name="email" required>
+       <input pattern="\d*" name="number" required>
+       <input type="submit" value="Publish"> <!-- form will be validated -->
+       <input type="submit" value="Save" formnovalidate> <!-- form will NOT be validated -->
+    </form>
+
+    <input type="color" name="favcolor" value="#ff0000">
+
+    <input type="password" name="password">
+    <input type="password" name="password" placeholder="Password">
+
+    <form action="upload_file.php" method="post" enctype="multipart/form-data">Select file to upload:
+       <input type="file" name="fileSubmission" id="fileSubmission">
+       <input type="submit" value="Upload your file" name="submit">
+    </form>
+
+    <input type="file" name="fileSubmission" id="fileSubmission" multiple>
+    <input type="file" name="fileSubmission" accept="image/x-png,image/gif,image/jpeg"/>
+
+    <input type="button" value="Button Text">
+    <button type="button">Button Text</button>
+    <input type="button" onclick="alert('hello world!')" value="Click Me">
+    <button type="button" onclick="alert('hello world!')">Click Me</button>
+
+    <button type="submit">
+       <img src="submit-icon.jpg"/>Submit
+    </button>
+
+    <form>
+       <label>E-mail: <label>
+          <input type="email" name="email">
+    </form>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <input type="tel" value="+8400000000">
+    <input type="number" value="0" name="quantity">
+    <input type="range" min="" max="" step=""/>
+    <input type="search" name="googlesearch">
+    <input type="image" src="img.png" alt="image_name" height="50px" width="50px"/>
+    <input type="week"/>
+    <input type="url" name="Homepage">
+    <input type="date"/>
+    <input type="datetime-local"/>
+    <input type="month"/>
+    <input type="time"/>
+
+    <fieldset>
+       <label>Meeting time: <input type=datetime name="meeting.start"></label>
+    </fieldset>
+
+    <!-- Forms
+          accept-charset = Specifies the character encodings that are to be used for the form submission.
+          action = Specifies where to send the form-data when a form is submitted.
+          autocomplete = Specifies whether a form should have autocomplete on or off.
+          enctype = Specifies how the form-data should be encoded when submitting it to the server (only for method="post").
+          method = Specifies the HTTP method to use when sending form-data (POST or GET).
+          name = Specifies the name of a form.
+          novalidate = Specifies that the form should not be validated when submitted.
+          target = Specifies where to display the response that is received after submitting the form.
+
+          _blank The response is displayed in a new window or tab
+          _self The response is displayed in the same frame (this is default)
+          _parent The response is displayed in the parent frame
+          _top The response is displayed in the full body of the window framename The response is displayed in a named iframe -->
+
+    <form action="action.php" method="get">
+    <form action="action.php" method="post">
+
+    <input type="text" name="lastname" value="Mouse">
+    <form action="action.php" method="post" target="_blank" accept-charset="UTF-8"
+      enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+
+    <form method="post" enctype="multipart/form-data" action="upload.php">
+      <input type="file" name="pic" />
+      <input type="submit" value="Upload" />
+    </form>
+
+    <form>
+      <fieldset>
+         <legend>1st field set:</legend>Field one:<br>
+         <input type="text"><br>Field two:<br>
+         <input type="text"><br>
+      </fieldset><br>
+
+      <fieldset>
+         <legend>2nd field set:</legend>Field three:<br>
+         <input type="text"><br>Field four:<br>
+         <input type="text"><br>
+      </fieldset><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <div>
+      <p>Hello! This is a paragraph.</p>
+    </div>
+
+    <div class="outer-div">
+      <div class="inner-div">
+         <p>This is a paragraph</p>
+      </div>
+
+      <div class="inner-div">
+         <p>This is another paragraph</p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="https://google.com">Google</a>
+      <a href="https://www.yahoo.com">Yahoo!</a>
+    </nav>
+
+    <nav role="navigation">
+       <ul>
+          <li><a href="https://google.com">Google</a></li>
+          <li><a href="https://www.yahoo.com">Yahoo!</a></li>
+       </ul>
+    </nav>
+
+<!--  <body>
+         <header>
+            <p>Welcome to...</p>
+            <h1>Voidwars!</h1>
+            <nav>...</nav>
+         </header>
+
+         <main>
+            <h1>Individual Blog Post</h1>
+            <p>An introduction for the post.</p>
+
+            <article>
+               <header>
+                  <h2>Blog Post</h2>
+               </header>
+
+               <p>An introduction for the post.</p>
+
+               <section>
+                  <h3>Chapter 1</h3>
+                  <p>...</p>
+               </section>
+
+               <section>
+                  <h3>Chapter 2</h3>
+                  <p>...</p>
+               </section>
+
+               <section>
+                  <h3>Comments</h3> ...
+               </section>
+            </article>
+         </main>
+
+         <footer>
+            <p>All rights reserved</p>
+         </footer>
+      </body> -->
+
+      <label>
+         <input type="checkbox" name="Cats">I like Cats!
+      </label>
+
+      <input id="cats" type="checkbox" name="Cats">
+      <label for="cats" >I like Cats!</label>
+
+      <form id="my-form" action="/login" method="POST">
+         <label for="username" form="my-form">Username:</label>
+         <input id="username" type="text" name="username"/>
+         <label for="pass">Password:</label>
+         <input id="pass" type="password" name="pass" />
+         <input type="submit" name="submit" />
+      </form>
+
+      <!--form1 will collect the values of in1 and in2 on 'input' event.-->
+      <!--out1 value will be the sum of in1 and in2 values.-->
+      <form id="form1" name="form1" oninput="out1.value = parseInt(in1.value, 10) + parseInt(in2.value, 10)">
+         <fieldset>
+            <legend>Output Example</legend>
+               <input type="number" id="in1" name="in1" value="0">
+            <br/>
+            +
+            <input type="number" id="in2" name="in2" value="0">
+         </fieldset>
+      </form>
+      <!--[for] attribute enables out1 to display calculations for in1 and in2.-->
+      <!--[form] attribute designates form1 as the form owner of out1 even if it isn't a descendant.-->
+      <output name="out1" for="in1 in2" form="form1">0</output>
+      <output name="out1" form="form1" for="inp1 inp2"></output>
+
+      <div>
+         <a href="http://stackoverflow.com/">
+            <h3>Click here to visit <i>Stack Overflow!</i></h3>
+         </a>
+
+         <button onclick="alert('Hello!');">Say Hello!</button>
+         <p>My favorite language is <b>HTML</b>. Here are my others:</p>
+            <ol>
+               <li>CSS</li>
+               <li>JavaScript</li>
+               <li>PHP</li>
+            </ol>
+      </div>
+
+      <img src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.png" />
+
+      <hr>
+
+      <audio controls>
+         <source src="file.mp3" type="audio/mpeg">Your browser does not support the audio element.
+      </audio>
+
+      <video width="400" height="300" controls>
+         <source src="video.mp4" type="video/mp4">Your browser does not support the video tag.
+      </video>
+
+      <!-- Simple video example -->
+      <video src="videofile.webm" autoplay poster="posterimage.jpg">
+         Sorry, your browser doesn't support embedded videos,
+         but don't worry, you can <a href="videofile.webm">download it</a>
+         and watch it with your favorite video player!
+      </video>
+
+      <!-- Simple video example -->
+      <video width="480" controls poster="https://archive.org/download/WebmVp8Vorbis/webmvp8.gif" >
+         <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
+         Your browser doesn't support HTML5 video tag.
+      </video>
+
+      <!-- Video with subtitles -->
+      <video src="foo.webm">
+         <track kind="subtitles" src="foo.en.vtt" srclang="en" label="English">
+      </video>
+
+      <!-- Simple audio playback -->
+      <audio src="http://developer.mozilla.org/@api/deki/files/2926/=AudioTest_(1).ogg" autoplay>
+         Your browser does not support the <code>audio</code> element.
+      </audio>
+
+      <!-- Audio playback with captions -->
+      <audio src="foo.ogg">
+         <track kind="captions" src="foo.en.vtt" srclang="en" label="English">
+      </audio>
+
+      <video width="800" height="600" autoplay muted loop poster="video.jpg" id="videobg">
+         <source src="video.mp4" type="video/mp4">
+      </video>
+
+      <progress max="100" value="20">
+         <div class="progress-bar">
+            <span style="width: 20%;">Progress: 20%</span>
+         </div>
+      </progress>
+
+      <select name="">
+         <option value="milk">Milk</option>
+         <optgroup label="Fruits">
+            <option value="banana">Bananas</option>
+            <option value="strawberry">Strawberries</option>
+         </optgroup>
+
+         <optgroup label="Vegetables" disabled>
+            <option value="carrot">Carrots</option>
+            <option value="zucchini">Zucchini</option>
+         </optgroup>
+      </select>
+
+      <input list="Languages">
+      <datalist id="Languages">
+         <option value="PHP">
+         <option value="Perl">
+         <option value="Python">
+         <option value="C+">
+      </datalist>
+
+      <iframe src="base.html"></iframe>
+      <iframe sandbox="allow-scripts allow-forms" src="http://example.com/"></iframe>
+      <iframe src="base.html" width="800" height="600"></iframe>
+      <iframe srcdoc="<p>Iframes are cool!</p>" src="base.html"></iframe>
+      <iframe src="webpage.html" name="myIframe"></iframe>
+      <a href="different_webpage.html" target="myIframe">Change the Iframe content to different_webpage.html</a>
+
+      <p lang="en">The content of this element is in English.</p>
+      <p lang="en" title="The value of this attribute is also in English.">The content of this element is in English.</p>
+
+      <div lang="en">
+         <p>This element contains English content.</p>
+         <p title="This attribute, too.">Same with this element.</p>
+      </div>
+
+      <p lang="en">This English sentence contains the German word <span lang="de">Hallo</span>.</p>
+      <p lang="en" title="An English paragraph"><span lang="de" title="A German sentence">Hallo Welt!</span></p>
+
+      <!-- Robots
+               all = Default. Equivalent to index, follow. See note below.
+               noindex = Do not index the page at all.
+               nofollow = Do not follow the links on this page
+               follow = The links on the page can be followed. See note below.
+               none = Equivalent to noindex, nofollow.
+               noarchive = Do not make a cached version of this page available in search results.
+               nocache = Synonym of noarchive used by some bots such as Bing.
+               nosnippet = Do not show a snippet of this page in search results.
+               noodp = Do not use metadata of this page from the Open Directory project for titles or
+               snippets = in search results.
+               notranslate = Do not offer translations of this page in search results.
+               noimageindex = Do not index images on this page. -->
+
+      <pre>
+         <code>
+           x = 42
+           if x == 42:
+               print "x is … … 42"
+          </code>
+      </pre>
+
+      <p>The <code>"if x > 2: print x"</code> element creates a hyperlink.</p>
+      <p>She wrote <q>The answer is 42.</q> and everyone agreed.</p>
+      <p>She wrote <q cite="http://example.com/blog/hello-world">The answer is 42.</q> and everyone agreed.</p>
+
+      <blockquote cite="http://example.com/blog/hello-world">
+         <p>The answer is 42.</p>
+         <footer>
+            <p>Source: <cite><a href="http://example.com/blog/hello-world" rel="external">Hello World</a></cite></p>
+         </footer>
+      </blockquote>
+
+      <div tabindex="0">Some button</div>
+      <div tabindex="2">Second</div>
+      <div tabindex="1">First</div>
+
+      <button tabindex="-1">This button will not be reachable by tab</button>
+
+      <!-- Global Attributes
+               class = Defines one or more class names for an element.
+               contenteditable = Sets whether the content of an element can be edited.
+               contextmenu = Defines a context menu shown when a user right-clicks an element.
+               dir = Sets the text direction for text within an element.
+               draggable = Sets whether an element can be dragged.
+               hidden = Hides an element not currently in use on the page.
+               id = Defines a unique identifier for an element.
+               lang = Defines the language of an element's content and its text attribute values. See Content Languages.
+               spellcheck = Sets whether to spell/grammar check the content of an element.
+               style = Defines a set of inline CSS styles for an element.
+               tabindex = Sets the order in which elements on a page are navigated by the tab keyboard shortcut.
+               title = Defines additional information about an element, generally in the form of tooltip text on mouseover.
+               translate = Defines whether to translate the content of an element. -->
+
+      <p contenteditable>This is an editable paragraph.
+         <span contenteditable="false">But not this.</span>
+      </p>
+
+      <!-- Event Attributes
+               onblur = Fires the moment that the element loses focus
+               onchange = Fires the moment when the value of the element is changed
+               oncontextmenu = Script to be run when a context menu is triggered
+               onfocus = Fires the moment when the element gets focus
+               oninput = Script to be run when an element gets user input
+               oninvalid = Script to be run when an element is invalid
+               onreset = Fires when the Reset button in a form is clicked
+               onsearch = Fires when the user writes something in a search field (for <input="search">)
+               onselect = Fires after some text has been selected in an element
+               onsubmit = Fires when a form is submitted
+               onkeydown = Fires when a user is pressing a key
+               onkeypress = Fires when a user presses a key
+               onkeyup = Fires when a user releases a key -->
+
+      <input type="text" placeholder=" &#128269; Search"/>
+      <b>&copy; 2016 Stack Exchange Inc.</b>
+
+      <div style="float:left;">Some content on the left.</div>
+      <div style="float:right;">Some content on the right</div>
+      <div role="presentation" style="clear:both;"></div> <!-- Only used to clear floats -->
+      <div role="alert" aria-live="assertive">Your session will expire in 60 seconds.</div>
+
+      <div role="alertdialog">
+         <h1>Warning</h1>
+         <div role="alert">Your session will expire in 60 seconds.</div>
+      </div>
+
+      <div role="application">
+         <h1>Calculator</h1>
+         <input id="num1" type="text"> + <input id="num2" type="text"> =
+         <span id="result"></span>
+      </div>
+
+      <article>
+         <h1>My first article</h1>
+         <p>Lorem ipsum...</p>
+      </article>
+
+      <div role="article">
+         <h1>My first article</h1>
+         <p>Lorem ipsum...</p>
+      </div>
+
+      <div role="banner">
+         <h1>My Site</h1>
+         <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+         </ul>
+      </div>
+
+      <button role="button">Add</button>
+
+      <table>
+         <thead>
+            <!-- etc -->
+         </thead>
+         <tbody>
+            <td role="cell">95</td>
+            <td role="cell">14</td>
+            <td role="cell">25</td>
+         </tbody>
+      </table>
+
+      <p>
+         <input type="checkbox" role="checkbox" aria-checked="false">
+         I agree to the terms
+      </p>
+
+      <table role="grid">
+         <thead>
+            <tr>
+               <th role="columnheader">Day 1</th>
+               <th role="columnheader">Day 2</th>
+            </tr>
+         </thead>
+         <tbody>
+            <!-- etc -->
+            </tbody
+      <table>
+
+      <input type="text" role="combobox" aria-expanded="false">
+
+      <div role="complementary">
+         <h2>More Articles</h2>
+         <ul>
+            <!-- etc -->
+         </ul>
+      </div>
+
+      <p role="contentinfo">
+         Author: Albert Einstein<br>
+         Published: August 15, 1940
+      </p>
+
+      <span role="term" aria-labelledby="def1">Love</span>
+      <span id="def1" role="definition">an intense feeling of deep affection.</span>
+
+      <div role="dialog">
+         <p>Are you sure?</p>
+         <button role="button">Yes</button>
+         <button role="button">No</button>
+      </div>
+
+      <ul role="directory">
+         <li><a href="/chapter-1">Chapter 1</a></li>
+         <li><a href="/chapter-2">Chapter 2</a></li>
+      </ul>
+
+      <div role="document">
+         <h1>The Life of Albert Einstein</h1>
+         <p>Lorem ipsum...</p>
+      </div>
+
+      <form action="">
+         <fieldset>
+            <legend>Login form</legend>
+            <div>
+               <label for="username">Your username</label>
+               <input type="text" id="username" aria-describedby="username-tip" required />
+               <div role="tooltip" id="username-tip">Your username is your email address</div>
+            </div>
+
+            <div>
+               <label for="password">Your password</label>
+               <input type="text" id="password" aria-describedby="password-tip" required />
+               <div role="tooltip" id="password-tip">Was emailed to you when you signed up</div>
+            </div>
+         </fieldset>
+      </form>
+
+      <div role=form>
+         <input type="email" placeholder="Your email address">
+         <button>Sign up</button>
+      </div>
+
+       <div role="group">
+          <button role"button">Previous</button>
+          <button role"button">Next</button>
+       </div>
+
+       <h1 role="heading">Introduction</h1>
+       <p>Lorem ipsum...</p>
+
+       <figure role="img">
+          <img alt="A cute cat." src="albert.jpg">
+          <figcaption>This is my cat, Albert.</figcaption>
+       <figure>
+
+       <ul role="list">
+          <li role="listitem">One</li>
+          <li role="listitem">Two</li>
+       </ul>
+
+       <ul role="listbox">
+          <li>One</li>
+          <li>Two</li>
+       </ul>
+
+       <ul role="log">
+          <li>User 1 logged in.</li>
+          <li>User 2 logged in.</li>
+       </ul>
+
+       <!-- header & nav here -->
+       <div role="main">
+          <p>Lorem ipsum...</p>
+       </div>
+       <!-- footer here -->
+
+       <ul role="marquee">
+          <li>Dow +0.26%</li>
+          <li>S&amp;P +0.44%</li>
+       </ul>
+
+       <img role="math" alt="y=mx+b" src="slope.png">
+
+       <ul role="menu">
+          <li role="menuitem">New</li>
+          <li role="menuitem">Open</li>
+          <li role="menuitemcheckbox" aria-checked="true">Word wrap</li>
+          <li role="menuitemradio" aria-checked="true">Left</li>
+          <li role="menuitemradio" aria-checked="false">Center</li>
+          <li role="menuitemradio" aria-checked="false">Right</li>
+       </ul>
+
+       <ul role="menubar">
+          <li role="menuitem">File</li>
+          <li role="menuitem">Edit</li>
+       </ul>
+
+       <ul role="navigation">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+       </ul>
+
+       <ul role="listbox">
+          <li role="option">Option 1</li>
+          <li role="option">Option 2</li>
+       </ul>
+
+       <div role="radiogroup">
+          <input role="radio" type="radio" aria-checked="true"> One<br>
+          <input role="radio" type="radio" aria-checked="false"> Two
+       </div>
+
+       <div role="region">
+          Home team: 4<br>
+          Away team: 2
+       </div>
+
+       <table role="grid">
+          <thead>
+             <!-- etc -->
+          </thead>
+
+          <tbody>
+             <tr>
+                <th role="rowheader">Day 1</th>
+                <td>65</td>
+             </tr>
+
+             <tr>
+                <th role="rowheader">Day 2</th>
+                <td>74</td>
+             </tr>
+          </tbody>
+       </table>
+
+       <div id="content1">Lorem ipsum...</div>
+         <div
+            role="scrollbar"
+            aria-controls="content1"
+            aria-orientation="vertical"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="25">
+               <div class="scrollhandle"></div>
+       </div>
+
+       <div role="search">
+          <input role="searchbox" type="text">
+          <button role="button">Search</button>
+       </div>
+
+       <hr role="separator">
+
+       <div
+            role="slider"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="25">
+               <div class="sliderhandle"></div>
+       </div>
+
+       <input
+            role="spinbutton"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="25"
+            type="number"
+            value="25">
+
+       <div role="status">Online</div>
+
+       <select role="switch" aria-checked="false">
+          <option>On</option>
+          <option selected>Off</option>
+       </select>
+
+       <ul role="tablist">
+          <li role="tab">Introduction</li>
+          <li role="tab">Chapter 1</li>
+          <li role="tab">Chapter 2</li>
+       </ul>
+
+       <div role="tabpanel">
+          <!-- etc -->
+       </div>
+
+       <textarea role="textbox"></textarea>
+
+       <p>
+          <span role="timer">60</span> seconds remaining.
+       </p>
+
+       <ul role="toolbar">
+          <li><img alt="New" src="new.png"></li>
+          <li><img alt="Open" src="open.png"></li>
+          <li><img alt="Save" src="save.png"></li>
+       </ul>
+
+       <span aria-describedby="slopedesc">Slope</span>
+       <div role="tooltip" id="slopedesc">y=mx+b</div>
+
+       <ul role="tree">
+          <li role="treeitem">Part 1
+            <ul>
+               <li role="treeitem">Chapter 1</li>
+               <li role="treeitem">Chapter 2</li>
+               <li role="treeitem">Chapter 3</li>
+            </ul>
+         </li>
+
+         <li role="treeitem">Part 2
+            <ul>
+               <li role="treeitem">Chapter 4</li>
+               <li role="treeitem">Chapter 5</li>
+               <li role="treeitem">Chapter 6</li>
+            </ul>
+         </li>
+       </ul>
+  </body>
+</html>
